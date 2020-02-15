@@ -114,12 +114,6 @@ public class Pizza {
     public PizzasResult run() throws Exception {
         PizzasResult pr = this.orderPizzas();
 
-        System.out.println( "Number of pizzas: " + pr.size() );
-        // System.out.println( "Pizzas" );
-        // System.out.println( pr );
-        // System.out.println( pr.scoreToString() );
-        System.out.println( "Score: " + pr.score() );
-
         return pr;
     }
 

@@ -17,7 +17,7 @@ public class Output {
         BufferedWriter bw = null;
         FileWriter fw = null;
 
-        System.out.println("Saving " + filename);
+        System.out.println("saving " + filename);
         try {
             fw = new FileWriter(filename);
             bw = new BufferedWriter(fw);
