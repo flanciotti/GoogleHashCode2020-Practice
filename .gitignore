@@ -1,0 +1,5 @@
+/out
+/.idea
+**/*.out
+**/*.zip
+**/.DS_Store
