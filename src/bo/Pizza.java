@@ -104,6 +104,15 @@ public class Pizza {
             }
         } while( extraSlices > 0 );
 
+
+        // remove one more item
+        int index = 0;
+        ps.add(this.pizzaSlices.get( index ));
+        this.pizzaSlices.remove( index );
+        s = this.pizzaSlices.sum();
+        extraSlices = s - minSlices;
+
+
         PizzasResult pr = getMaxPizzas( ps, -extraSlices );
 
         pr.add( ps.size(), this.pizzaSlices );
